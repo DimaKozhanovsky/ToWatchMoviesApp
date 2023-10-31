@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
+    // отсюда взыввется все подярд
 struct ToWatchMovieApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView() // создается объект мэйн вью 
         }
     }
 }

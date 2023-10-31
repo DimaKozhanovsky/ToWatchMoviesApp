@@ -7,13 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA5333562AE1BCFD0002ADE1 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5333552AE1BCFD0002ADE1 /* ImageCache.swift */; };
+		CA5333572AE1BCFD0002ADE1 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5333552AE1BCFD0002ADE1 /* ImageCache.swift */; };
+		CA5333582AE1BCFD0002ADE1 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5333552AE1BCFD0002ADE1 /* ImageCache.swift */; };
+		CA53335B2AE1BD150002ADE1 /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA53335A2AE1BD150002ADE1 /* ImageLoaderView.swift */; };
+		CA53335C2AE1BD150002ADE1 /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA53335A2AE1BD150002ADE1 /* ImageLoaderView.swift */; };
+		CA53335D2AE1BD150002ADE1 /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA53335A2AE1BD150002ADE1 /* ImageLoaderView.swift */; };
+		CA53335F2AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA53335E2AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift */; };
+		CA5333602AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA53335E2AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift */; };
+		CA5333612AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA53335E2AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift */; };
+		CA829EA62AE42948000FA03A /* MainState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA829EA52AE42948000FA03A /* MainState.swift */; };
+		CA829EA82AE42A36000FA03A /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA829EA72AE42A36000FA03A /* MovieModel.swift */; };
+		CA829EAC2AE42B29000FA03A /* MovieRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA829EAB2AE42B29000FA03A /* MovieRepository.swift */; };
+		CA829EAE2AE4426E000FA03A /* PreviousView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA829EAD2AE4426E000FA03A /* PreviousView.swift */; };
 		CAEDC6562ACD7D6600CC7554 /* ToWatchMovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC6552ACD7D6600CC7554 /* ToWatchMovieApp.swift */; };
-		CAEDC6582ACD7D6600CC7554 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC6572ACD7D6600CC7554 /* ContentView.swift */; };
-		CAEDC65A2ACD7D6700CC7554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEDC6592ACD7D6700CC7554 /* Assets.xcassets */; };
+		CAEDC6582ACD7D6600CC7554 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC6572ACD7D6600CC7554 /* MainView.swift */; };
 		CAEDC65E2ACD7D6700CC7554 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEDC65D2ACD7D6700CC7554 /* Preview Assets.xcassets */; };
 		CAEDC6682ACD7D6700CC7554 /* ToWatchMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC6672ACD7D6700CC7554 /* ToWatchMovieTests.swift */; };
 		CAEDC6722ACD7D6800CC7554 /* ToWatchMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC6712ACD7D6800CC7554 /* ToWatchMovieUITests.swift */; };
 		CAEDC6742ACD7D6800CC7554 /* ToWatchMovieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC6732ACD7D6800CC7554 /* ToWatchMovieUITestsLaunchTests.swift */; };
+		CAEDC6822ACDD11300CC7554 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CAEDC6812ACDD11300CC7554 /* Kingfisher */; };
+		CAEDC6882ACDD47300CC7554 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC6872ACDD47300CC7554 /* Model.swift */; };
+		CAEDC6892ACDD47300CC7554 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC6872ACDD47300CC7554 /* Model.swift */; };
+		CAEDC68A2ACDD47300CC7554 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC6872ACDD47300CC7554 /* Model.swift */; };
+		CAEDC68C2ACEAAB200CC7554 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC68B2ACEAAB200CC7554 /* EndPoint.swift */; };
+		CAEDC68D2ACEAAB200CC7554 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC68B2ACEAAB200CC7554 /* EndPoint.swift */; };
+		CAEDC68E2ACEAAB200CC7554 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC68B2ACEAAB200CC7554 /* EndPoint.swift */; };
+		CAEDC6902AD0024400CC7554 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC68F2AD0024400CC7554 /* NetworkService.swift */; };
+		CAEDC6912AD0024400CC7554 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC68F2AD0024400CC7554 /* NetworkService.swift */; };
+		CAEDC6922AD0024400CC7554 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC68F2AD0024400CC7554 /* NetworkService.swift */; };
+		CAEDC6942AD00FA300CC7554 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC6932AD00FA300CC7554 /* MainViewModel.swift */; };
+		CAEDC6952AD00FA300CC7554 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC6932AD00FA300CC7554 /* MainViewModel.swift */; };
+		CAEDC6962AD00FA300CC7554 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC6932AD00FA300CC7554 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +59,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA5333552AE1BCFD0002ADE1 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = "../../../../Downloads/Telegram Desktop/ImageLoader/ImageCache.swift"; sourceTree = "<group>"; };
+		CA5333592AE1BD0F0002ADE1 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		CA53335A2AE1BD150002ADE1 /* ImageLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageLoaderView.swift; path = "../../../../../Downloads/Telegram Desktop/ImageLoader/ImageLoaderView.swift"; sourceTree = "<group>"; };
+		CA53335E2AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageLoaderViewModel.swift; path = "../../../../../Downloads/Telegram Desktop/ImageLoader/ImageLoaderViewModel.swift"; sourceTree = "<group>"; };
+		CA829EA52AE42948000FA03A /* MainState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainState.swift; sourceTree = "<group>"; };
+		CA829EA72AE42A36000FA03A /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		CA829EAB2AE42B29000FA03A /* MovieRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepository.swift; sourceTree = "<group>"; };
+		CA829EAD2AE4426E000FA03A /* PreviousView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousView.swift; sourceTree = "<group>"; };
 		CAEDC6522ACD7D6600CC7554 /* ToWatchMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToWatchMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEDC6552ACD7D6600CC7554 /* ToWatchMovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToWatchMovieApp.swift; sourceTree = "<group>"; };
-		CAEDC6572ACD7D6600CC7554 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CAEDC6592ACD7D6700CC7554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAEDC6572ACD7D6600CC7554 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CAEDC65B2ACD7D6700CC7554 /* ToWatchMovie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToWatchMovie.entitlements; sourceTree = "<group>"; };
 		CAEDC65D2ACD7D6700CC7554 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CAEDC6632ACD7D6700CC7554 /* ToWatchMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToWatchMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +77,10 @@
 		CAEDC66D2ACD7D6800CC7554 /* ToWatchMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToWatchMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEDC6712ACD7D6800CC7554 /* ToWatchMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToWatchMovieUITests.swift; sourceTree = "<group>"; };
 		CAEDC6732ACD7D6800CC7554 /* ToWatchMovieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToWatchMovieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAEDC6872ACDD47300CC7554 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CAEDC68B2ACEAAB200CC7554 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		CAEDC68F2AD0024400CC7554 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CAEDC6932AD00FA300CC7554 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAEDC6822ACDD11300CC7554 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +109,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA5333542AE1BCCB0002ADE1 /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				CA5333592AE1BD0F0002ADE1 /* ImageCache.swift */,
+				CA53335A2AE1BD150002ADE1 /* ImageLoaderView.swift */,
+				CA53335E2AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift */,
+			);
+			path = ImageLoader;
+			sourceTree = "<group>";
+		};
+		CA829E9E2AE42780000FA03A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDC68F2AD0024400CC7554 /* NetworkService.swift */,
+				CAEDC68B2ACEAAB200CC7554 /* EndPoint.swift */,
+				CAEDC6872ACDD47300CC7554 /* Model.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CA829EA02AE4282E000FA03A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				CA829EA12AE4285E000FA03A /* Main */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		CA829EA12AE4285E000FA03A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CA829EA42AE4288C000FA03A /* View */,
+				CA829EA32AE4287A000FA03A /* ViewModel */,
+				CA829EA22AE42871000FA03A /* Model */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CA829EA22AE42871000FA03A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA829EA52AE42948000FA03A /* MainState.swift */,
+				CA829EA72AE42A36000FA03A /* MovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA829EA32AE4287A000FA03A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDC6932AD00FA300CC7554 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CA829EA42AE4288C000FA03A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDC6572ACD7D6600CC7554 /* MainView.swift */,
+				CA829EAD2AE4426E000FA03A /* PreviousView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA829EA92AE42AF1000FA03A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				CA829EAA2AE42B06000FA03A /* MovieRepo */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		CA829EAA2AE42B06000FA03A /* MovieRepo */ = {
+			isa = PBXGroup;
+			children = (
+				CA829EAB2AE42B29000FA03A /* MovieRepository.swift */,
+			);
+			path = MovieRepo;
+			sourceTree = "<group>";
+		};
 		CAEDC6492ACD7D6600CC7554 = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +213,11 @@
 			isa = PBXGroup;
 			children = (
 				CAEDC6552ACD7D6600CC7554 /* ToWatchMovieApp.swift */,
-				CAEDC6572ACD7D6600CC7554 /* ContentView.swift */,
-				CAEDC6592ACD7D6700CC7554 /* Assets.xcassets */,
+				CA829EA92AE42AF1000FA03A /* Domain */,
+				CA829EA02AE4282E000FA03A /* Presentation */,
+				CA829E9E2AE42780000FA03A /* Network */,
+				CA5333552AE1BCFD0002ADE1 /* ImageCache.swift */,
+				CA5333542AE1BCCB0002ADE1 /* ImageLoader */,
 				CAEDC65B2ACD7D6700CC7554 /* ToWatchMovie.entitlements */,
 				CAEDC65C2ACD7D6700CC7554 /* Preview Content */,
 			);
@@ -145,6 +265,9 @@
 			dependencies = (
 			);
 			name = ToWatchMovie;
+			packageProductDependencies = (
+				CAEDC6812ACDD11300CC7554 /* Kingfisher */,
+			);
 			productName = ToWatchMovie;
 			productReference = CAEDC6522ACD7D6600CC7554 /* ToWatchMovie.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +340,9 @@
 				Base,
 			);
 			mainGroup = CAEDC6492ACD7D6600CC7554;
+			packageReferences = (
+				CAEDC6802ACDD11300CC7554 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = CAEDC6532ACD7D6600CC7554 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,7 +360,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAEDC65E2ACD7D6700CC7554 /* Preview Assets.xcassets in Resources */,
-				CAEDC65A2ACD7D6700CC7554 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +384,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAEDC6582ACD7D6600CC7554 /* ContentView.swift in Sources */,
+				CAEDC6582ACD7D6600CC7554 /* MainView.swift in Sources */,
+				CAEDC68C2ACEAAB200CC7554 /* EndPoint.swift in Sources */,
 				CAEDC6562ACD7D6600CC7554 /* ToWatchMovieApp.swift in Sources */,
+				CA53335F2AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift in Sources */,
+				CAEDC6902AD0024400CC7554 /* NetworkService.swift in Sources */,
+				CAEDC6882ACDD47300CC7554 /* Model.swift in Sources */,
+				CA829EA62AE42948000FA03A /* MainState.swift in Sources */,
+				CA829EAE2AE4426E000FA03A /* PreviousView.swift in Sources */,
+				CA829EA82AE42A36000FA03A /* MovieModel.swift in Sources */,
+				CA53335B2AE1BD150002ADE1 /* ImageLoaderView.swift in Sources */,
+				CA5333562AE1BCFD0002ADE1 /* ImageCache.swift in Sources */,
+				CA829EAC2AE42B29000FA03A /* MovieRepository.swift in Sources */,
+				CAEDC6942AD00FA300CC7554 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +404,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA5333572AE1BCFD0002ADE1 /* ImageCache.swift in Sources */,
+				CAEDC6912AD0024400CC7554 /* NetworkService.swift in Sources */,
+				CA53335C2AE1BD150002ADE1 /* ImageLoaderView.swift in Sources */,
+				CA5333602AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift in Sources */,
+				CAEDC6892ACDD47300CC7554 /* Model.swift in Sources */,
+				CAEDC68D2ACEAAB200CC7554 /* EndPoint.swift in Sources */,
+				CAEDC6952AD00FA300CC7554 /* MainViewModel.swift in Sources */,
 				CAEDC6682ACD7D6700CC7554 /* ToWatchMovieTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +420,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAEDC6742ACD7D6800CC7554 /* ToWatchMovieUITestsLaunchTests.swift in Sources */,
+				CAEDC68E2ACEAAB200CC7554 /* EndPoint.swift in Sources */,
 				CAEDC6722ACD7D6800CC7554 /* ToWatchMovieUITests.swift in Sources */,
+				CA5333612AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift in Sources */,
+				CAEDC6922AD0024400CC7554 /* NetworkService.swift in Sources */,
+				CAEDC68A2ACDD47300CC7554 /* Model.swift in Sources */,
+				CA53335D2AE1BD150002ADE1 /* ImageLoaderView.swift in Sources */,
+				CA5333582AE1BCFD0002ADE1 /* ImageCache.swift in Sources */,
+				CAEDC6962AD00FA300CC7554 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +579,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.2;
@@ -467,7 +617,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.2;
@@ -612,6 +762,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CAEDC6802ACDD11300CC7554 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CAEDC6812ACDD11300CC7554 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAEDC6802ACDD11300CC7554 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CAEDC64A2ACD7D6600CC7554 /* Project object */;
 }
