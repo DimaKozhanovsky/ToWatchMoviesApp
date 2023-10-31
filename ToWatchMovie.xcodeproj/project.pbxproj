@@ -10,16 +10,12 @@
 		CA5333562AE1BCFD0002ADE1 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5333552AE1BCFD0002ADE1 /* ImageCache.swift */; };
 		CA5333572AE1BCFD0002ADE1 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5333552AE1BCFD0002ADE1 /* ImageCache.swift */; };
 		CA5333582AE1BCFD0002ADE1 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5333552AE1BCFD0002ADE1 /* ImageCache.swift */; };
-		CA53335B2AE1BD150002ADE1 /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA53335A2AE1BD150002ADE1 /* ImageLoaderView.swift */; };
-		CA53335C2AE1BD150002ADE1 /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA53335A2AE1BD150002ADE1 /* ImageLoaderView.swift */; };
-		CA53335D2AE1BD150002ADE1 /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA53335A2AE1BD150002ADE1 /* ImageLoaderView.swift */; };
-		CA53335F2AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA53335E2AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift */; };
-		CA5333602AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA53335E2AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift */; };
-		CA5333612AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA53335E2AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift */; };
 		CA829EA62AE42948000FA03A /* MainState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA829EA52AE42948000FA03A /* MainState.swift */; };
 		CA829EA82AE42A36000FA03A /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA829EA72AE42A36000FA03A /* MovieModel.swift */; };
 		CA829EAC2AE42B29000FA03A /* MovieRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA829EAB2AE42B29000FA03A /* MovieRepository.swift */; };
 		CA829EAE2AE4426E000FA03A /* PreviousView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA829EAD2AE4426E000FA03A /* PreviousView.swift */; };
+		CAE185DB2AF143D400463037 /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE185DA2AF143D400463037 /* ImageLoaderView.swift */; };
+		CAE185DD2AF1441D00463037 /* ImageLoaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE185DC2AF1441D00463037 /* ImageLoaderViewModel.swift */; };
 		CAEDC6562ACD7D6600CC7554 /* ToWatchMovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC6552ACD7D6600CC7554 /* ToWatchMovieApp.swift */; };
 		CAEDC6582ACD7D6600CC7554 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC6572ACD7D6600CC7554 /* MainView.swift */; };
 		CAEDC65E2ACD7D6700CC7554 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEDC65D2ACD7D6700CC7554 /* Preview Assets.xcassets */; };
@@ -61,12 +57,12 @@
 /* Begin PBXFileReference section */
 		CA5333552AE1BCFD0002ADE1 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = "../../../../Downloads/Telegram Desktop/ImageLoader/ImageCache.swift"; sourceTree = "<group>"; };
 		CA5333592AE1BD0F0002ADE1 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
-		CA53335A2AE1BD150002ADE1 /* ImageLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageLoaderView.swift; path = "../../../../../Downloads/Telegram Desktop/ImageLoader/ImageLoaderView.swift"; sourceTree = "<group>"; };
-		CA53335E2AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageLoaderViewModel.swift; path = "../../../../../Downloads/Telegram Desktop/ImageLoader/ImageLoaderViewModel.swift"; sourceTree = "<group>"; };
 		CA829EA52AE42948000FA03A /* MainState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainState.swift; sourceTree = "<group>"; };
 		CA829EA72AE42A36000FA03A /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		CA829EAB2AE42B29000FA03A /* MovieRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepository.swift; sourceTree = "<group>"; };
 		CA829EAD2AE4426E000FA03A /* PreviousView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousView.swift; sourceTree = "<group>"; };
+		CAE185DA2AF143D400463037 /* ImageLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderView.swift; sourceTree = "<group>"; };
+		CAE185DC2AF1441D00463037 /* ImageLoaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderViewModel.swift; sourceTree = "<group>"; };
 		CAEDC6522ACD7D6600CC7554 /* ToWatchMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToWatchMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEDC6552ACD7D6600CC7554 /* ToWatchMovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToWatchMovieApp.swift; sourceTree = "<group>"; };
 		CAEDC6572ACD7D6600CC7554 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -113,8 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				CA5333592AE1BD0F0002ADE1 /* ImageCache.swift */,
-				CA53335A2AE1BD150002ADE1 /* ImageLoaderView.swift */,
-				CA53335E2AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift */,
+				CAE185DA2AF143D400463037 /* ImageLoaderView.swift */,
+				CAE185DC2AF1441D00463037 /* ImageLoaderViewModel.swift */,
 			);
 			path = ImageLoader;
 			sourceTree = "<group>";
@@ -386,15 +382,15 @@
 			files = (
 				CAEDC6582ACD7D6600CC7554 /* MainView.swift in Sources */,
 				CAEDC68C2ACEAAB200CC7554 /* EndPoint.swift in Sources */,
+				CAE185DD2AF1441D00463037 /* ImageLoaderViewModel.swift in Sources */,
 				CAEDC6562ACD7D6600CC7554 /* ToWatchMovieApp.swift in Sources */,
-				CA53335F2AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift in Sources */,
 				CAEDC6902AD0024400CC7554 /* NetworkService.swift in Sources */,
 				CAEDC6882ACDD47300CC7554 /* Model.swift in Sources */,
 				CA829EA62AE42948000FA03A /* MainState.swift in Sources */,
 				CA829EAE2AE4426E000FA03A /* PreviousView.swift in Sources */,
 				CA829EA82AE42A36000FA03A /* MovieModel.swift in Sources */,
-				CA53335B2AE1BD150002ADE1 /* ImageLoaderView.swift in Sources */,
 				CA5333562AE1BCFD0002ADE1 /* ImageCache.swift in Sources */,
+				CAE185DB2AF143D400463037 /* ImageLoaderView.swift in Sources */,
 				CA829EAC2AE42B29000FA03A /* MovieRepository.swift in Sources */,
 				CAEDC6942AD00FA300CC7554 /* MainViewModel.swift in Sources */,
 			);
@@ -406,8 +402,6 @@
 			files = (
 				CA5333572AE1BCFD0002ADE1 /* ImageCache.swift in Sources */,
 				CAEDC6912AD0024400CC7554 /* NetworkService.swift in Sources */,
-				CA53335C2AE1BD150002ADE1 /* ImageLoaderView.swift in Sources */,
-				CA5333602AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift in Sources */,
 				CAEDC6892ACDD47300CC7554 /* Model.swift in Sources */,
 				CAEDC68D2ACEAAB200CC7554 /* EndPoint.swift in Sources */,
 				CAEDC6952AD00FA300CC7554 /* MainViewModel.swift in Sources */,
@@ -422,10 +416,8 @@
 				CAEDC6742ACD7D6800CC7554 /* ToWatchMovieUITestsLaunchTests.swift in Sources */,
 				CAEDC68E2ACEAAB200CC7554 /* EndPoint.swift in Sources */,
 				CAEDC6722ACD7D6800CC7554 /* ToWatchMovieUITests.swift in Sources */,
-				CA5333612AE1BD1A0002ADE1 /* ImageLoaderViewModel.swift in Sources */,
 				CAEDC6922AD0024400CC7554 /* NetworkService.swift in Sources */,
 				CAEDC68A2ACDD47300CC7554 /* Model.swift in Sources */,
-				CA53335D2AE1BD150002ADE1 /* ImageLoaderView.swift in Sources */,
 				CA5333582AE1BCFD0002ADE1 /* ImageCache.swift in Sources */,
 				CAEDC6962AD00FA300CC7554 /* MainViewModel.swift in Sources */,
 			);
