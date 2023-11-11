@@ -17,6 +17,7 @@ struct PreviousView: View {
     
     var body: some View {
         ScrollView(.horizontal){
+            //  у скролвью нет переиспользования ячеек у лист вью есть , лист вью меняет по кругу
             LazyHStack(spacing: 0){
                 
                 //

@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA5333562AE1BCFD0002ADE1 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5333552AE1BCFD0002ADE1 /* ImageCache.swift */; };
-		CA5333572AE1BCFD0002ADE1 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5333552AE1BCFD0002ADE1 /* ImageCache.swift */; };
-		CA5333582AE1BCFD0002ADE1 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5333552AE1BCFD0002ADE1 /* ImageCache.swift */; };
+		CA79E4FA2AFA43FA00BB718D /* ImageCash .swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79E4F92AFA43FA00BB718D /* ImageCash .swift */; };
 		CA829EA62AE42948000FA03A /* MainState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA829EA52AE42948000FA03A /* MainState.swift */; };
 		CA829EA82AE42A36000FA03A /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA829EA72AE42A36000FA03A /* MovieModel.swift */; };
 		CA829EAC2AE42B29000FA03A /* MovieRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA829EAB2AE42B29000FA03A /* MovieRepository.swift */; };
@@ -55,8 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CA5333552AE1BCFD0002ADE1 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = "../../../../Downloads/Telegram Desktop/ImageLoader/ImageCache.swift"; sourceTree = "<group>"; };
 		CA5333592AE1BD0F0002ADE1 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		CA79E4F92AFA43FA00BB718D /* ImageCash .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageCash .swift"; sourceTree = "<group>"; };
 		CA829EA52AE42948000FA03A /* MainState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainState.swift; sourceTree = "<group>"; };
 		CA829EA72AE42A36000FA03A /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		CA829EAB2AE42B29000FA03A /* MovieRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepository.swift; sourceTree = "<group>"; };
@@ -121,6 +119,7 @@
 				CAEDC68F2AD0024400CC7554 /* NetworkService.swift */,
 				CAEDC68B2ACEAAB200CC7554 /* EndPoint.swift */,
 				CAEDC6872ACDD47300CC7554 /* Model.swift */,
+				CA79E4F92AFA43FA00BB718D /* ImageCash .swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -212,7 +211,6 @@
 				CA829EA92AE42AF1000FA03A /* Domain */,
 				CA829EA02AE4282E000FA03A /* Presentation */,
 				CA829E9E2AE42780000FA03A /* Network */,
-				CA5333552AE1BCFD0002ADE1 /* ImageCache.swift */,
 				CA5333542AE1BCCB0002ADE1 /* ImageLoader */,
 				CAEDC65B2ACD7D6700CC7554 /* ToWatchMovie.entitlements */,
 				CAEDC65C2ACD7D6700CC7554 /* Preview Content */,
@@ -383,13 +381,13 @@
 				CAEDC6582ACD7D6600CC7554 /* MainView.swift in Sources */,
 				CAEDC68C2ACEAAB200CC7554 /* EndPoint.swift in Sources */,
 				CAE185DD2AF1441D00463037 /* ImageLoaderViewModel.swift in Sources */,
+				CA79E4FA2AFA43FA00BB718D /* ImageCash .swift in Sources */,
 				CAEDC6562ACD7D6600CC7554 /* ToWatchMovieApp.swift in Sources */,
 				CAEDC6902AD0024400CC7554 /* NetworkService.swift in Sources */,
 				CAEDC6882ACDD47300CC7554 /* Model.swift in Sources */,
 				CA829EA62AE42948000FA03A /* MainState.swift in Sources */,
 				CA829EAE2AE4426E000FA03A /* PreviousView.swift in Sources */,
 				CA829EA82AE42A36000FA03A /* MovieModel.swift in Sources */,
-				CA5333562AE1BCFD0002ADE1 /* ImageCache.swift in Sources */,
 				CAE185DB2AF143D400463037 /* ImageLoaderView.swift in Sources */,
 				CA829EAC2AE42B29000FA03A /* MovieRepository.swift in Sources */,
 				CAEDC6942AD00FA300CC7554 /* MainViewModel.swift in Sources */,
@@ -400,7 +398,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA5333572AE1BCFD0002ADE1 /* ImageCache.swift in Sources */,
 				CAEDC6912AD0024400CC7554 /* NetworkService.swift in Sources */,
 				CAEDC6892ACDD47300CC7554 /* Model.swift in Sources */,
 				CAEDC68D2ACEAAB200CC7554 /* EndPoint.swift in Sources */,
@@ -418,7 +415,6 @@
 				CAEDC6722ACD7D6800CC7554 /* ToWatchMovieUITests.swift in Sources */,
 				CAEDC6922AD0024400CC7554 /* NetworkService.swift in Sources */,
 				CAEDC68A2ACDD47300CC7554 /* Model.swift in Sources */,
-				CA5333582AE1BCFD0002ADE1 /* ImageCache.swift in Sources */,
 				CAEDC6962AD00FA300CC7554 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

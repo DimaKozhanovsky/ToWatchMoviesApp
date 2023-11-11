@@ -25,41 +25,46 @@ class ImageLoaderViewModel: ObservableObject {
         getImage(urlString: imageUrlString)
     }
     
-    private func getImage(urlString: String) {
-        guard let url = URL(string: urlString) else {
-            fatalError("Invalid image string url")
-        }
+     private func getImage(urlString: String) {
+         DispatchQueue.global(qos: .userInteractive).async {
+             guard let url = URL(string: urlString) else {
+                 fatalError("Invalid image string url")
+             }
+             
+            NetworkService.getImage(url: url, headers: [:])
+                 .tryMap({ data -> UIImage? in
+                     return UIImage(data: data)
+                 })
+                 .sink(receiveCompletion: { completion in
+                     switch completion {
+                     case .finished:
+                         break
+                     case .failure(let error):
+                         debugPrint(error.localizedDescription)
+                         DispatchQueue.main.async {
+                             self.state = .error
+                         }
+                     }
+                 }, receiveValue: { [weak self] image in
+                     guard let self = self else {
+                         return
+                     }
+                     
+                     DispatchQueue.main.async {
+                         if let image = image {
+                             self.state = .success(image)
+                         } else {
+                             self.state = .error
+                         }
+                     }
+                 }
+                 )
+                 .store(in: &self.cancellables)
+             // когда в другом потоке то надо обращения к объекту 
+         }
+         }
+         
         
-       NetworkService.getImage(url: url, headers: [:])
-            .tryMap({ data -> UIImage? in
-                return UIImage(data: data)
-            })
-            .sink(receiveCompletion: { completion in
-                switch completion {
-                case .finished:
-                    break
-                case .failure(let error):
-                    debugPrint(error.localizedDescription)
-                    DispatchQueue.main.async {
-                        self.state = .error
-                    }
-                }
-            }, receiveValue: { [weak self] image in
-                guard let self = self else {
-                    return
-                }
-                
-                DispatchQueue.main.async {
-                    if let image = image {
-                        self.state = .success(image)
-                    } else {
-                        self.state = .error
-                    }
-                }
-            }
-            )
-            .store(in: &cancellables)
-    }
 }
 
 

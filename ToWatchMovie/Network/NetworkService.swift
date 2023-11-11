@@ -90,12 +90,12 @@ class NetworkService : Error {
         url: URL,
         headers: Headers
     ) -> AnyPublisher<Data, URLError> {
-        if let cachedImageData = ImageCache.shared.getImageData(for: url) {
-            return Just(cachedImageData)
-                .setFailureType(to: URLError.self)
-                .eraseToAnyPublisher()
-        }
-        
+//        if let cachedImageData = ImageCache.shared.getImageData(for: url) {
+//            return Just(cachedImageData)
+//                .setFailureType(to: URLError.self)
+//                .eraseToAnyPublisher()
+//        }
+//
         var urlRequest = URLRequest(url: url)
         
         urlRequest.allHTTPHeaderFields = [:]
@@ -110,8 +110,8 @@ class NetworkService : Error {
             .shared
             .dataTaskPublisher(for: urlRequest)
             .handleEvents(receiveOutput: { response in
-                let data = response.data
-                ImageCache.shared.setImageData(data, for: url)
+//                let data = response.data
+//                ImageCache.shared.setImageData(data, for: url)
                 
                 //                print("Response: \(response)")
                 //                let utf8Text = String(data: response.data, encoding: .utf8)
